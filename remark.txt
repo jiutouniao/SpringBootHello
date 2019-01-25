@@ -3,3 +3,21 @@
 
 接口访问路径
 http://localhost:8080/hello
+
+
+1.只需要四个包就能基本跑起来
+	spring-boot-starter-parent
+	
+	spring-boot-starter-web
+	
+	spring-boot-starter-test
+	
+	spring-boot-maven-plugin (主要用来进行打包)
+	
+	
+	Spring Boot Maven plugin的5个Goals
+		spring-boot:repackage，默认goal。在mvn package之后，再次打包可执行的jar/war，同时保留mvn package生成的jar/war为.origin
+		spring-boot:run，运行Spring Boot应用
+		spring-boot:start，在mvn integration-test阶段，进行Spring Boot应用生命周期的管理
+		spring-boot:stop，在mvn integration-test阶段，进行Spring Boot应用生命周期的管理
+		spring-boot:build-info，生成Actuator使用的构建信息文件build-info.properties
