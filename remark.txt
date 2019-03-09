@@ -1,5 +1,5 @@
 
-
+主要用来测试是否会自动构建
 
 接口访问路径
 http://localhost:8080/hello
@@ -21,3 +21,6 @@ http://localhost:8080/hello
 		spring-boot:start，在mvn integration-test阶段，进行Spring Boot应用生命周期的管理
 		spring-boot:stop，在mvn integration-test阶段，进行Spring Boot应用生命周期的管理
 		spring-boot:build-info，生成Actuator使用的构建信息文件build-info.properties
+		
+		
+		
